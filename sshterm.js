@@ -31,7 +31,7 @@ conn.on('ready', function() {
   password: 'password'
 });
 
-// The code below is from the link below. I just sent key press to stream used by instead of stdout
+// The code below is from the link below. I just sent key press to stream used by SSH instead of stdout
 // http://stackoverflow.com/questions/5006821/nodejs-how-to-read-keystrokes-from-stdin
 // 
 var stdin = process.stdin;
